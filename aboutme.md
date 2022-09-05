@@ -13,7 +13,7 @@ Hi, My name is Bruno Aguiar. Welcome to my blog page.
 
 ### My story
 
-I was born in Portugal and speak English, Portuguese, Spanish and (ein bisschen) German.
+I was born in Portugal and raised in the United States. I speak English, Portuguese, Spanish and (ein bisschen) German.
 After college I moved out to Portugal to be with my girlfriend (now wife, YAY!). Since then we've moved back to the United States and havent looked back since.
 I have always been into technology and worked in IT most of my professional life. I am looking to take my career 
 to the next level and enrolled in the Flatiron school to become a Software Engineer. Ultimately, I'd like to become
