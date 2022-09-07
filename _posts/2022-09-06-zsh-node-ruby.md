@@ -29,9 +29,9 @@ pamac install oh-my-zsh
 
 There are prerequisites needed for the Oh-my-ZSH framework and the package manager should handle that for you. You will be prompted to approve the install of those prerequisites, please do so. After installation you should be able to use the ZSH shell after restarting your computer (or logging off and back in again).
 
-You can get more information on oh-my-zsh via Github: (https://github.com/ohmyzsh/ohmyzsh)
+You can get more information on oh-my-zsh via Github: [(https://github.com/ohmyzsh/ohmyzsh)]
 
-Information page for the Manjaro oh-my-zsh package: (https://software.manjaro.org/package/oh-my-zsh#!)
+Information page for the Manjaro oh-my-zsh package: [https://software.manjaro.org/package/oh-my-zsh#!]
 
 **Node JS (NVM) Overview:**
 
