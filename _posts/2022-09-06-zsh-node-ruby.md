@@ -29,9 +29,9 @@ pamac install oh-my-zsh
 
 There are prerequisites needed for the Oh-my-ZSH framework and the package manager should handle that for you. You will be prompted to approve the install of those prerequisites, please do so. After installation you should be able to use the ZSH shell after restarting your computer (or logging off and back in again).
 
-You can get more information on oh-my-zsh via Github: [(https://github.com/ohmyzsh/ohmyzsh)]
+You can get more information on oh-my-zsh via Github: [Oh my ZSH](https://github.com/ohmyzsh/ohmyzsh)
 
-Information page for the Manjaro oh-my-zsh package: [https://software.manjaro.org/package/oh-my-zsh#!]
+Information page for the Manjaro oh-my-zsh package: [Manjaro Software Center - Oh my ZSH](https://software.manjaro.org/package/oh-my-zsh#!)
 
 **Node JS (NVM) Overview:**
 
@@ -54,9 +54,9 @@ or
 wget -qO- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
 ~~~
 
-You can get more information on NVM via Github: (https://github.com/nvm-sh/nvm)
+You can get more information on NVM via Github: [NVM](https://github.com/nvm-sh/nvm)
 
-Information page for the Manjaro NVM package: (https://software.manjaro.org/package/nvm#!)
+Information page for the Manjaro NVM package: [Manjaro Software Center - NVM](https://software.manjaro.org/package/nvm#!)
 
 **Ruby (RVM) Overview:**
 
@@ -74,9 +74,9 @@ Then download and install RVM with the following command in terminal.
 \curl -sSL https://get.rvm.io | bash -s stable
 ~~~
 
-You can get more information on RVM via the projects webpage: (https://rvm.io/)
+You can get more information on RVM via the projects webpage: [RVM.io](https://rvm.io/)
 
-You can get more information on RVM via Github: (https://github.com/rvm/rvm/)
+You can get more information on RVM via Github: [RVM](https://github.com/rvm/rvm/)
 
 **NOTES and THOUGHTS**
 
