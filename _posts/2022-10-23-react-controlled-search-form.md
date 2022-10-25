@@ -22,4 +22,4 @@ I will be guiding through the creation of a simple search bar for a React S.P.A 
 First you need to create a state variable and import the search component in the lowest common ancestor component (L.C.A). In this case, the L.C.A is usually App.js but can also be named SomethingElse.js
 
 To be able to create a state variable you will need to hook in useState:
-![Import useState and Search](assets/img/blog2/usestate_import.png)
+![Import useState and Search](assets/img/usestate_import.png)
