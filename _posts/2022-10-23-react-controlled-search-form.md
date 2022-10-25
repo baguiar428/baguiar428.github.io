@@ -34,4 +34,19 @@ Your search component should then look something like this:
 
 You "gain control" via the value={ } and onChange event. The onChange event invokes the handleChange callback function which in turn uses the state setter function (setSearch) passed down to the search component. You could test this out by adding a console.log(e.target.value) to handleChange. You should see your console capturing everything you type in the search input.
 
-Once you have this working you need to make the search magic happen by implementing the logic to compare your search to the data you want to searh. So head back over to your L.C.A and craft your search criteria.
+Once you have this working you need to make the search magic happen by implementing the logic to compare your search to the data you want to search. So head back over to your L.C.A and craft your search criteria.
+
+The the example below I am using variables relevant to the lab, I didn't abstract them to whatever because I think the specific names and context help visualize the logic.
+
+![](../assets/img/blog2/search_filter.png)
+
+In the example you are using the filter method to take each object (plant) in the array, convert the value in the name key to lowercase and compare that to the search input that is also converted to lowercase (state variable set by setSearch in our handleChange callback). When something in name key matches what you typed in you get a hit.
+
+Displaying that hit from a list that may have already been on the screen is a bit tricky. You need to pass in the variable created for your search logic into the component that displays your dataset/array. This works because when you don't have anything typed into the search input nothing matches so nothing gets filtered out so you get your full list displayed.
+
+![](../assets/img/blog2/display_plants.png)
+
+That is how I learned to create my first controlled search input.
+
+**NOTES and THOUGHTS**
+I hope this helps someone click with the concepts needed to build a controlled search in React. This helped me learn to approach programming in an almost mechanical way. This approach gives me a sense of confidence when approaching a new problem and I feel like I would be lucky to more of these AHA moments throughout my coding journeys.
