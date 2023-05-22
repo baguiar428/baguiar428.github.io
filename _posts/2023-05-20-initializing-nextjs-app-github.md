@@ -18,7 +18,7 @@ After digging around through Yarn documentation I found [Q&A - Which files shoul
 That was really useful information but even after adding the entries to my .gitignore I still got the same error. The issue was a conflict in Git with the repo I created via the Github website and the Git configuration generated locally when using Yarn. I tried using [Github documentation for managing large files](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github) but that didn't work because the remote repo wasn't connected to the local one to begin with. I think it is related to conflicting HEAD entries but I haven't demystified all of the Github voodoo yet.
 Even though Yarn doesn't allow for generating a project without initializing Git, that I know of, there is a simple way to resolve this issue..Generate your project, delete your local .git, edit your .gitignore then reinitialize git. Let's see what that looks like step by step.
 
-**Step 1: Creating a NextJS Project**
+**Step 1: Creating a NextJS Project**<br>
 Change into the directory you want to save your project
 then create your project with the following command:
 ~~~
@@ -35,6 +35,9 @@ When you run the command you will receive a series of prompts on how you'd like 
 ✔ Would you like to customize the default import alias? … No / Yes
 Creating a new Next.js app in /home/hyperion/Development/next.js_projects/test.
 ~~~
+
+**Step 2: Deleting the auto-generated Git Config**
+
 
 
 
