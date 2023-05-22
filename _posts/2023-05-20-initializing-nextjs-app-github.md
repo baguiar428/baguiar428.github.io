@@ -18,13 +18,13 @@ After digging around through Yarn documentation I found [Q&A - Which files shoul
 That was really useful information but even after adding the entries to my .gitignore I still got the same error. The issue was a conflict in Git with the repo I created via the Github website and the Git configuration generated locally when using Yarn. I tried using [Github documentation for managing large files](https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-large-files-on-github) but that didn't work because the remote repo wasn't connected to the local one to begin with. I think it is related to conflicting HEAD entries but I haven't demystified all of the Github voodoo yet.
 Even though Yarn doesn't allow for generating a project without initializing Git, that I know of, there is a simple way to resolve this issue..Generate your project, delete your local .git, edit your .gitignore then reinitialize git. Let's see what that looks like step by step.
 
-**Step 1: Creating a NextJS Project**<br>
+**Step 1: Creating a NextJS Project**..
 Change into the directory you want to save your project
 then create your project with the following command:
 ~~~
 yarn create next-app
 ~~~
-When you run the command you will receive a series of prompts on how you'd like to configure your project. I've included the prompts below for reference but the defaults are generally safe.
+When you run the command you will receive a series of prompts on how you'd like to configure your project. One of the prompts will let you set up Tailwind out-of-the-box, how awesome is that! I've included the prompts below for reference but the defaults are generally safe.
 ~~~
 ✔ What is your project named? … test
 ✔ Would you like to use TypeScript with this project? … No / Yes
@@ -36,7 +36,12 @@ When you run the command you will receive a series of prompts on how you'd like 
 Creating a new Next.js app in /home/hyperion/Development/next.js_projects/test.
 ~~~
 
-**Step 2: Deleting the auto-generated Git Config**
+**Step 2: Deleting the auto-generated Git Config**..
+Once your project is created you will need to change directory into it. When you're in the directory if you list out all the files you should see a .git folder. Go ahead and delete the whole folder. Note that the preceding dot in .git means the folder is hidden.
+In *unix (Linux and Mac) system you would do the following 3 commands to complete this step:
+~~~
+$ cd _your/_project/_folder_
+~~~
 
 
 
